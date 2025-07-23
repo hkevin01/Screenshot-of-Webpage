@@ -1,0 +1,42 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP
+vendor/
+*.lock
+composer.lock
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/dist/
+/build/
+
+# Test
+coverage/
+
+# Data
+/data/
+
+# Assets
+/assets/
+
+# Copilot
+.copilot/
+
+# Scripts
+/scripts/
+
+# Misc
+.env
+*.bak
+*.tmp

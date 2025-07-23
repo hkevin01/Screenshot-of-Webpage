@@ -1,4 +1,8 @@
+// screenshot.js
+// Main logic for capturing webpage screenshots
+
 (function (exports) {
+    // Convert nodeList URLs to absolute URLs
     function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
             return [];
@@ -23,6 +27,7 @@
         return nodeList;
     }
 
+    // Capture the webpage screenshot
     function screenshotPage() {
         urlsToAbsolute(document.images);
         urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));
@@ -62,6 +67,7 @@
         return blob;
     }
 
+    // Add event listener for page load
     function addOnPageLoad_() {
         window.addEventListener('DOMContentLoaded', function (e) {
             var scrollX = document.documentElement.dataset.scrollX || 0;
@@ -70,6 +76,7 @@
         });
     }
 
+    // Generate the screenshot
     function generate() {
         window.URL = window.URL || window.webkitURL;
         window.open(window.URL.createObjectURL(screenshotPage()));

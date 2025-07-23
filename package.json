@@ -1,0 +1,17 @@
+{
+  "name": "screenshot-of-webpage",
+  "version": "1.0.0",
+  "description": "Automated webpage screenshot tool using PHP and JavaScript.",
+  "main": "src/screenshot.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "echo 'No tests yet'",
+    "build": "echo 'No build step yet'"
+  },
+  "author": "hkevin01",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
