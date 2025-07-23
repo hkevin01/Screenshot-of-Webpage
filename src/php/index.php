@@ -5,6 +5,7 @@
  *
  * This script serves the main application for capturing webpage screenshots.
  * @package ScreenshotOfWebpage
+ * @file src/php/index.php
  */
 ?>
 <button onclick="generate();">Capture Map</button>

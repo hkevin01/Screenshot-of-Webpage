@@ -1,10 +1,10 @@
 # Project Plan
 
 ## Phase 1: Initial Setup
-- [ ] Organize project structure
-  - Create logical directories (src, tests, docs, etc.)
-  - Move files to appropriate folders
-  - Set up .gitignore and config files
+- [x] Organize project structure
+  - [x] Create logical directories (src, tests, docs, etc.)
+  - [x] Move files to appropriate folders
+  - [x] Set up .gitignore and config files
 - [ ] Establish version control
   - Initialize git repository
   - Set up branch protection rules
@@ -20,20 +20,20 @@
 
 ## Phase 2: Core Development
 - [ ] Refactor legacy code
-  - Update to ES6+ standards
-  - Modularize codebase
+  - [ ] Update to ES6+ standards
+  - [ ] Modularize codebase
 - [ ] Implement main features
-  - Screenshot capture logic
-  - Webpage rendering
+  - [ ] Screenshot capture logic
+  - [ ] Webpage rendering
 - [ ] Add error handling
-  - Validate inputs
-  - Handle edge cases
+  - [ ] Validate inputs
+  - [ ] Handle edge cases
 - [ ] Write unit tests
-  - Cover core modules
-  - Integrate with CI
+  - [ ] Cover core modules
+  - [ ] Integrate with CI
 - [ ] Document code
-  - Add comments and docstrings
-  - Update docs folder
+  - [ ] Add comments and docstrings
+  - [ ] Update docs folder
 
 ## Phase 3: Automation & CI/CD
 - [ ] Set up GitHub Actions
